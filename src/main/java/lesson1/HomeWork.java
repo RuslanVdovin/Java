@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class HomeWork {
 
         public static void main(String[] args) {
+
             byte a = 127;
             short b = 32766;
             int c = 2147483646;
@@ -13,6 +14,7 @@ public class HomeWork {
             double d = 1.5584;
             char k = 'R';
             boolean x = true;
+
             System.out.println(calculate(2.5f, 5.5f, 6.2f,2.2f));
             System.out.println(checkSum());
             positiveOrNegative(-5);
